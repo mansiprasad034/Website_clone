@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 'large';
+    box-sizing: border-box;
+
+
+}
+.header{
+    min-height: 500vh;
+    width: 100%;
+    background-color: rgba(19,19,19,255);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 10px 3%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+nav img{
+    box-sizing: border-box;
+    width: 50px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    position: relative;
+    
+}
+.nav-links ul li a{
+    color:rgb(244, 241, 237);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links ul li:hover:after{
+    width : 100%;
+
+}
+nav .logo2{
+    box-sizing: border-box;
+    width:20px;
+}
+
+button{
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    margin: 0 40px;
+    outline: 0;
+    border: 0;
+}
+.btn1
+{
+    background-color: rgb(7, 85, 133);
+    color: white;
+    border-color: white;
+    border-width: 1px;
+}
+.btn2
+{
+    background-color: #040404;
+    color: white;
+    width: 50px;
+    border-color: white;
+    border-width: 1px;
+}
+.btn3
+{
+    background-color: #040404;
+    color: rgb(9, 9, 9);
+    padding: 3px;
+    width: 50px;
+    border-color: rgb(246, 244, 244);
+    border-width: 1px;
+}
+.begin
+{
+    text-align: center;
+    padding: 10px 2%;
+    color:rgb(244, 241, 237);
+    padding-top: 65px;
+}
+.begin .pic1
+{
+    width: 60px;
+    float: left;
+    margin-left: 600px;
+    padding: 0;
+}
+.begin h1
+{
+    
+    font-size: 40px;
+    padding-left: 0px;
+    margin-right: 500px;
+}
+.begin h2
+{
+    margin-top: 50px;
+    font-size: 60px;
+    margin-left: 70px;
+    background: linear-gradient(to right, #f44588,
+    #f29354, #ed17ed, #f5e12d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.mid
+{
+    padding: 12px 0;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 80px;
+}
+.mid2
+{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content
+{
+    color: white;
+    align-items: center;
+}
+.content h2{
+    margin-left: 20px;
+    font-size: 40px;
+}
+.content p1
+{
+    
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.content .pic3
+{
+    float: right;
+    margin-right: 80px;
+}
+.frame1
+{
+    margin-top: 100px;
+    color: white;
+    padding-right: 100px;
+}
+
+.frame1 h1
+{
+    font-size: 30px;
+}
+
+.frame1 p1
+{
+    font-size: 20px;
+}
+
+.frame1 .pic4
+{
+    float: left;
+    padding-right: 40px;
+    padding-left: 15px;
+}
+
+
+.frame2
+{
+    margin-top: 100px;
+    color: white;
+    padding-right: 100px;
+}
+.frame2 h1
+{
+    font-size: 30px;
+}
+.frame2 p1{
+    font-size: 20px;
+}
+.frame2 .pic5
+{
+    float: left;
+    padding-right: 40px;
+    padding-left: 15px;
+}
+
+.frame3
+{
+    margin-top: 100px;
+    color: white;
+    padding-right: 120px;
+}
+.frame3 h1
+{ 
+    font-size: 30px;
+}
+.frame3 p1
+{ 
+    font-size: 20px;
+}
+.frame3 .pic6
+{
+    float: left;
+    padding-right: 40px;
+    padding-left: 15px;
+}
+.frame4
+{
+    margin-top: 100px;
+    color: white;
+    padding-right: 120px;
+}
+.frame4 h1
+{ 
+    font-size: 30px;
+}
+.frame4 p1
+{
+     font-size: 20px;
+    }
+.frame4 .img6
+{
+    float: left;
+    padding-right: 40px;
+    padding-left: 15px;
+}
+.end
+{
+    margin-top: 70px;
+    background-color:  #080808;
+    color: white;
+    padding-top: 15px;
+    display: flex;
+
+}
+.name
+{
+    font-size: 50px;
+    padding-left: 15px;
+}
+.list
+{
+    margin-left: 440px;
+}
+.list ul 
+{
+    list-style-type: none;
+}
+.list ul 
+{
+    font-size: 30px;
+}
+ul li
+{
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.bottom
+{
+    text-align: right;
+    font-size: 20px;
+    float: right;
+}
+.bottom h2
+{
+    font-size: 25px;
+}
+.bottom h3
+{
+    font-size: 20px;
+    float: right;
+    margin-right: 15px;
+    padding-left: "450px";
+    
+}
